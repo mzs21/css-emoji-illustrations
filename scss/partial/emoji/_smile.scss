@@ -1,0 +1,10 @@
+@import "../variable";
+
+.smile{
+    $mouth-height: $emojiSize * .3;
+    
+    width: $emojiSize * .6;
+    height: $mouth-height;
+
+    border-radius: 5% 5% $mouth-height $mouth-height;
+}

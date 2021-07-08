@@ -1,0 +1,21 @@
+.eyes{
+    position: absolute;
+    top: $emojiSize * .25;
+    left: $emojiSize * .5;
+}
+
+.eye{
+    position: absolute;
+    width: $emojiSize * .075;
+    height: $emojiSize * .15;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.eye-left{
+    left: $emojiSize * -.2;
+}
+
+.eye-right{
+    right: $emojiSize * -.2;
+}

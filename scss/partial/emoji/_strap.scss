@@ -1,0 +1,32 @@
+.strap{
+    position: absolute;
+    background-color: white;
+    border: $emojiSize * .02 solid grey;
+    width: $emojiSize * .4;
+    height: $emojiSize * .03;
+    z-index: -2;
+}
+
+.strap-top-left{
+    transform: rotate(20deg);
+    top: $emojiSize * -.08;
+    left: $emojiSize * -.4;
+}
+
+.strap-top-right{
+    transform: rotate(-20deg);
+    top: $emojiSize * -.08;
+    right: $emojiSize * -.4;
+}
+
+.strap-bottom-left{
+    transform: rotate(-30deg);
+    bottom: $emojiSize * -.11;
+    left: $emojiSize * -.4;
+}
+
+.strap-bottom-right{
+    transform: rotate(30deg);
+    bottom: $emojiSize * -.11;
+    right: $emojiSize * -.4;
+}

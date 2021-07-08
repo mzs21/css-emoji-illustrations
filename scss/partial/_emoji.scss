@@ -1,0 +1,48 @@
+@import "emoji/smile";
+@import "emoji/open-mouth";
+@import "emoji/eyes";
+@import "emoji/strap";
+@import "./variable";
+
+.emoji{
+    margin: 1rem;
+
+    height: $emojiSize;
+    width: $emojiSize;
+
+    grid-column: auto / span 2;
+}
+
+.head{
+    background-color: rgb(240, 184, 41);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.mouth{
+    position: absolute;
+    background-color: black;
+
+    bottom: $emojiSize * .15;
+    left: $emojiSize * .5;
+
+    transform: translateX(-50%);
+}
+
+.face-mask{
+    left: $emojiSize * .18;
+    transform: none;
+    width: $emojiSize * .6;
+    height: $emojiSize * .3;
+    background-color: white;
+    border-radius: 10%;
+    border: $emojiSize * .02 solid grey;
+}
+
+
+
+
